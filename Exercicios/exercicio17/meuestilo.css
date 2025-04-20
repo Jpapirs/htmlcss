@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+    background-image: linear-gradient(to right white,black);
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-indent: 10px;
+}
+main{
+    border-radius: 10px;
+    background-color: aqua;
+    box-shadow: 5px 10px 5px black;
+
+}
+}
