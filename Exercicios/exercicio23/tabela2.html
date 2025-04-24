@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Grande</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead,tfoot{
+            background-color: gray;
+            color: white;
+        }
+        tbody > th {
+            position: sticky;
+            top: 0;
+            background-color: gray;
+
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        }
+        .num{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>População Brasileira por Estado<caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 000 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 000 000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 000 000</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 824 665</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 229 915</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 539 029</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 233 656</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 664 306</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">8 058 441</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+
+                <td class="num"><strong>100 000 000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel cum cupiditate dolor modi reprehenderit, excepturi ipsum libero distinctio. Voluptates deleniti odit tempora eligendi rem facilis quos blanditiis saepe exercitationem voluptatum. Cupiditate qui corporis iure consectetur quos! Earum itaque laborum totam optio omnis placeat inventore in, unde dolore tempore. Quos quam ipsa hic a in adipisci tempore sed, doloremque tenetur laborum exercitationem ullam eligendi sapiente non totam nisi aut vel tempora quo accusantium! Saepe cumque aliquid aliquam consectetur illo cum minus, corrupti soluta obcaecati rerum nobis nostrum laboriosam? Repellendus minima suscipit unde ipsum quas, assumenda animi eveniet nobis maxime, autem laudantium!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id impedit nostrum molestiae! Quasi, consequuntur! Similique magnam qui repellat cupiditate commodi eligendi praesentium architecto nam placeat assumenda, ut, doloribus impedit dolorum?
+    Praesentium quidem mollitia ducimus? Nesciunt numquam facilis tenetur suscipit quidem dolore inventore quis sit quaerat et dolorem, distinctio dolorum minima debitis excepturi, maxime recusandae? Dolor cum deserunt distinctio voluptates rem.
+    Sed numquam sunt labore iusto id soluta excepturi eius enim saepe deleniti voluptatibus obcaecati iste mollitia tempore illum aspernatur nam ratione, nobis unde! Dolores, et quis id velit molestias incidunt!
+    Saepe et, suscipit expedita necessitatibus exercitationem eveniet quidem hic, ab quae fugit officia! Reiciendis nisi deleniti impedit velit praesentium, modi quidem. Dignissimos, consectetur nemo inventore dolorem laboriosam ad consequatur reprehenderit!
+    Quae error perferendis, dolores qui similique natus officiis labore consequatur quibusdam maxime nulla quisquam rem dolorum, at libero inventore beatae cumque alias officia vel exercitationem quaerat facere eum. Labore, natus.</p>
+
+
+</body>
+</html>
