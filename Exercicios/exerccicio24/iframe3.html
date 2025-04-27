@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação em iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            width: 95vh;
+            border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto pariatur laborum necessitatibus blanditiis? Ex molestias aliquid eaque ullam similique modi, incidunt, quos voluptates sapiente corrupti maiores, nobis quibusdam dolorem optio.</p>
+
+    <ul>
+        <li><a href="pagina1.html" target="tela">Primeira pagina</a></li>
+        <li><a href="pagina2.html" target="tela">Segunda pagina</a></li>
+        <li><a href="pagina3.html" target="tela">terceira pagina</a></li>
+    </ul>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, exercitationem nemo similique beatae amet modi numquam aliquid quas. Nihil similique error totam sed ipsa minus ratione culpa rem hic quidem.</p>
+
+    <iframe id="tela"name='tela'srcdoc="<img src='imagens/header.jpg'>">Infelizmente seu navegador não é compativel</iframe>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit deleniti vitae, corporis nostrum illum, in inventore fuga quibusdam doloribus eligendi quos vel laudantium fugit, unde repudiandae dolorem alias non sed.
+    Ratione quia magni reprehenderit velit delectus illo, incidunt sint. Sunt vero magnam molestiae. Vitae, totam! Et quas, eligendi quos animi vel optio at temporibus minima cumque amet magnam quasi illum!</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus cumque expedita perferendis dignissimos, necessitatibus iusto molestiae? Officia soluta quidem, eveniet ratione, fuga commodi quam at dolorum libero, nisi fugiat expedita?</p>
+
+    <ul>
+        
+        <li><a href="iframe1.html" target="tela2"> iframe 1</a></li>
+        <li><a href="iframe2.html" target="tela2"> iframe 2</a></li>
+        <li><a href="iframe3.html" target="tela2"> iframe 3</a></li>
+    </ul>
+
+    <iframe id="tela" src="" name="tela2"></iframe>
+</body>
+</html>
