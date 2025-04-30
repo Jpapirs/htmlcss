@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="estilos/mediaqueries.css">
+    <title>Media Query</title>
+</head>
+<body onresize="mudoutamanho">
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Curiosiedades</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Informações</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Opções</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quia tempore illo ducimus qui laudantium fuga eveniet iste exercitationem maxime. Provident eaque ex saepe laborum hic. Eos vel similique corrupti?
+            Omnis eligendi, itaque vitae ut eum necessitatibus sapiente deleniti eveniet ea nostrum accusantium excepturi consequuntur libero at optio! Ipsam nisi reprehenderit tempore, aperiam a et sint tempora vel nulla corrupti.
+            Sapiente aspernatur nostrum reprehenderit consectetur numquam doloremque vero, nam ex omnis eveniet nobis reiciendis delectus tempore repellat iste eaque minus quas libero tempora debitis provident at! Doloremque debitis error eos?
+            Dicta molestias blanditiis fuga inventore harum illum ab quod libero animi! Molestiae libero deserunt porro repudiandae, suscipit rem atque aliquam ab laborum eligendi enim, voluptate architecto quos non! Temporibus, neque?
+            Et numquam assumenda fuga explicabo qui dolor repellat nobis nesciunt tempora ipsum omnis vel odit officia, nisi atque quis, beatae, consequatur deserunt ducimus adipisci. Nam aliquid nesciunt repellat ratione fuga!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti repudiandae exercitationem cumque, expedita obcaecati quod velit est earum corporis iste officia aut ipsam unde, odio, voluptas nihil placeat delectus a.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } 
+            else {
+                itens.style.display = 'block'
+            }
+        }
+        function mudoutamanho(){
+            if (window.innerWidth >= 768){
+                itens.style.display = 'block';
+            } 
+            else{
+                itens.style.display ='none';
+            }
+        }
+        
+    </script>
+</body>
+</html>
